@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.inputContainer {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.messagesContainer {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#parrafosMensajes {
+    margin: 0;
+}
+
+#parrafosMensajes p {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #d9edf7;
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 70%;
+}
+
+#parrafosMensajes p.sent {
+    background-color: #dff0d8;
+    text-align: right;
+}
+
+#parrafosMensajes p.received {
+    background-color: #fcf8e3;
+    text-align: left;
+}
